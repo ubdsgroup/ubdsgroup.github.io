@@ -1,6 +1,6 @@
 name: UBDS Research
 description: Research website for the University at Buffalo summarizing the data science and machine learning research.
-url: https://www.cse.buffalo.edu/ubds
+url: https://ubdsgroup.github.io
 
 permalink: /:categories/:title/
 future: true
