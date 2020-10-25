@@ -92,6 +92,13 @@ ga('send', 'pageview');
 		      {% endif %}
 		      <a href="/teaching/">teaching</a>
 		    </li>
+		  {% if page.categories.first == 'news' %}
+		  <li class="active">
+		    {% else %}
+		    <li>
+		      {% endif %}
+		      <a href="/news/">news</a>
+		    </li>
 	    </ul>
 	  </div>
 	</div>

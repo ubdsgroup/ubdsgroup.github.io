@@ -1,0 +1,30 @@
+---
+layout: default
+title: ubds lab / news 
+categories:
+- news
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="bigtitle">
+      News and Announcements	
+    </div>
+  </div>
+</div>
+<div class="bigspacer"></div>
+{% for news in site.categories.news %}
+{% cycle 'add rows': '<div class="row">', '', '' %}
+  <div class="col-md-3 projectbox">
+    <div class="media">
+      <div class="media-body">
+	<div class="smallhead media-heading"><a href="{{ news.url }}" class="off">{{ news.title }}</a></div>
+	<div class="bigspacer"></div>
+	<p class="note">On {{ news.date | date: "%-d %b %Y" }} By {{ news.author }}</p>
+      </div>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="spacer"></div>
+  </div>
+  {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}

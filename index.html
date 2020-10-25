@@ -33,7 +33,7 @@ categories:
 <div class="bigspacer"></div>
 <div class="bigspacer"></div>
 
-<!--div class="row">
+<div class="row">
   <div class="col-md-12">
     <div class="head">
       <a class="off" href="/blog/">Recent posts</a>
@@ -43,59 +43,21 @@ categories:
 </div>
 
 <div class="row">
-  {% for post in site.categories.blog limit:4 %}
-
-  {% for member in site.categories.team %}
-  {% if member.title == post.author %}
-  {% assign author = member %}
-  {% endif %}
-  {% endfor %}
+  {% for news in site.categories.news limit:4 %}
 
   <div class="col-md-3 reduced-gutter">
     <div class="pad-left">
       <div class="note">
 	<i class="fa fa-comment-o fa-fw"></i>
-	<a class="off" href="{{ post.url }}">
-	  {{ post.title }}
+	<a class="off" href="{{ news.url }}">
+	  {{ news.title }}
 	</a>
       </div>
       <div class="smallspacer"></div>
       <div class="smallnote">
 	Posted
-	{{ post.date | date: "%-d %b %Y" }}
-	{% if post.author %}
-	by <a class="off" href="
-		     {% for member in site.categories.team %}
-		     {% if member.title == post.author %}
-		     {{ member.url }}
-		     {% endif %}
-		     {% endfor %}
-		     ">
-	  {{ post.author }}
-	</a>
-	{% endif %}
-	{% if post.authors %}
-	by
-	<a class="off" href="
-		  {% for member in site.categories.team %}
-		  {% if member.title == post.authors.first %}
-		  {{ member.url }}
-		  {% endif %}
-		  {% endfor %}
-		  ">
-	  {{ post.authors.first }}
-	</a>
-	and
-	<a class="off" href="
-		  {% for member in site.categories.team %}
-		  {% if member.title == post.authors.last %}
-		  {{ member.url }}
-		  {% endif %}
-		  {% endfor %}
-		  ">
-	  {{ post.authors.last }}
-	</a>
-	{% endif %}
+	{{ news.date | date: "%-d %b %Y" }}
+	by {{ news.author }}
       </div>
       <div class="bigspacer"></div>
     </div>
@@ -103,7 +65,7 @@ categories:
   {% endfor %}
 </div>
 
-<div class="spacer"></div-->
+<div class="spacer"></div>
 
 <div class="row">
   <div class="col-md-12">
