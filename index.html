@@ -1,0 +1,204 @@
+---
+layout: default
+title: ubds lab
+categories:
+ - home
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <object class="pull-left biglogo" data="/images/logo.png" type="image/png"></object>
+    <div class="bigtitle logobox">
+      ub data science research lab
+    </div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="smallhead">
+      <p>
+      The <b>University at Buffalo Data Science</b> (UBDS) research group is located in the <a href="http://www.cse.buffalo.edu">Computer Science and Engineering</a> department at the <a href="http://www.buffalo.edu">University at Buffalo</a>. We develop machine learning based data science solutions for problems in a wide variety of domains, including cyber-security, threat detection, healthcare, and sustainability.
+      </p>
+      <p>
+      <font color="red">Interested in working with us? Please fill out <a href="https://forms.gle/RF3UMohvaAg8GuMV9">this questionnaire</a> and we will get back to you.</font>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<!--div class="row">
+  <div class="col-md-12">
+    <div class="head">
+      <a class="off" href="/blog/">Recent posts</a>
+    </div>
+    <div class="spacer"></div>
+  </div>
+</div>
+
+<div class="row">
+  {% for post in site.categories.blog limit:4 %}
+
+  {% for member in site.categories.team %}
+  {% if member.title == post.author %}
+  {% assign author = member %}
+  {% endif %}
+  {% endfor %}
+
+  <div class="col-md-3 reduced-gutter">
+    <div class="pad-left">
+      <div class="note">
+	<i class="fa fa-comment-o fa-fw"></i>
+	<a class="off" href="{{ post.url }}">
+	  {{ post.title }}
+	</a>
+      </div>
+      <div class="smallspacer"></div>
+      <div class="smallnote">
+	Posted
+	{{ post.date | date: "%-d %b %Y" }}
+	{% if post.author %}
+	by <a class="off" href="
+		     {% for member in site.categories.team %}
+		     {% if member.title == post.author %}
+		     {{ member.url }}
+		     {% endif %}
+		     {% endfor %}
+		     ">
+	  {{ post.author }}
+	</a>
+	{% endif %}
+	{% if post.authors %}
+	by
+	<a class="off" href="
+		  {% for member in site.categories.team %}
+		  {% if member.title == post.authors.first %}
+		  {{ member.url }}
+		  {% endif %}
+		  {% endfor %}
+		  ">
+	  {{ post.authors.first }}
+	</a>
+	and
+	<a class="off" href="
+		  {% for member in site.categories.team %}
+		  {% if member.title == post.authors.last %}
+		  {{ member.url }}
+		  {% endif %}
+		  {% endfor %}
+		  ">
+	  {{ post.authors.last }}
+	</a>
+	{% endif %}
+      </div>
+      <div class="bigspacer"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="spacer"></div-->
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="head">
+      <a class="off" href="/papers/">Recent papers</a>
+    </div>
+    <div class="spacer"></div>
+  </div>
+</div>
+
+<div class="row">
+  {% for paper in site.categories.papers limit:4 %}
+  <div class="col-md-3 reduced-gutter">
+    <div class="pad-left">
+      <div class="note">
+	<i class="fa fa-file-text-o fa-fw"></i>
+	<a class="off" href="{{ paper.url }}">
+	  {{ paper.title }}
+	</a>
+      </div>
+      <div class="smallspacer"></div>
+      <div class="smallnote">
+	Posted
+	{{ paper.date | date: "%-d %b %Y" }}
+      </div>
+      <div class="bigspacer"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="head">
+      <a class="off" href="/projects/">Active projects</a>
+    </div>
+    <div class="spacer"></div>
+  </div>
+</div>
+
+<div class="row">
+  {% for project in site.categories.projects limit:4 %}
+  <div class="col-md-3 reduced-gutter">
+    <div class="pad-left">
+      <div class="note">
+	<i class="fa fa-tasks"></i>
+	<a class="off" href="{{ project.url }}">
+	  {{ project.title }} 
+	</a>
+      </div>
+      <div class="bigspacer"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="head">
+      Misc
+    </div>
+    <div class="spacer"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 reduced-gutter">
+    <div class="pad-left">
+      <ul class="list-inline">
+	<!--li class="footernav">
+	  <i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
+	</li-->
+	<li class="footernav">
+	  <i class="fa fa-angle-right"></i> <a class="off" href="http://github.com/ubdsgroup">Code</a>
+	</li>
+      </ul>
+    </div>
+    <div class="spacer"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="head">
+      Contact 
+    </div>
+    <div class="spacer"></div>
+    <div class="pad-left">
+      <ul class="list-inline">
+	<li class="footernav">
+	  <i class="fa fa-envelope-o"></i> chandola@buffalo.edu <i class="fa fa-phone"></i> (716) 645 4747 <i class="fa fa-map-marker"></i> 212 Capen Hall (CARA Suite), University at Buffalo, Buffalo, NY 14260
+	</li>
+      </ul>
+    </div>
+  </div>
+</div>

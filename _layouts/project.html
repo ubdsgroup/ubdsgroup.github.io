@@ -1,0 +1,81 @@
+---
+layout: default
+categories:
+- projects
+---
+
+{% assign project = page %}
+<div class="row">
+  <div class="col-md-8">
+    <div class="media">
+      {% if project.image %}
+      <img class="pull-left pad-right media-object" width=150 src="{{ project.image }}">
+      {% endif %}
+      <div class="media-body titlebox">
+	<div class="title media-heading">
+	  {{ project.title }}
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-8">
+    <div class="smallhead">
+     Project website 
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-home"></i>
+      <a class="off" href="{{ project.projecturl }}">{{ project.projecturl}}</a>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="smallhead">
+     Project Description 
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-info-circle"></i>
+      {{ project.description }}
+    </div>
+    <div class="bigspacer"></div>
+    <div class="smallhead">
+      UBDS Contributors
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-group"></i>
+      {{ project.ubdsteam }}
+    </div>
+    <div class="bigspacer"></div>
+    <div class="smallhead">
+      Other Contributors
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-group"></i>
+      {{ project.otherteam }}
+    </div>
+    <div class="bigspacer"></div>
+    <div class="smallhead">
+      Funding 
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-dollar"></i>
+      {{ project.sponsorname }}
+    </div>
+    <div class="bigspacer"></div>
+    <div class="smallhead">
+      Project Duration 
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-calendar"></i>
+      {{ project.duration }}
+    </div>
+  </div>
+</div>
