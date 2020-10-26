@@ -4,7 +4,7 @@ title: Muhanned Ibrahim
 position: BS/MS Student
 handle: muhanned
 github: hanoody
-image: /images/team/media-shy.jpg
+image: /images/team/muhanned-ibrahim.png
 cv: /pdfs/team/muhanned-ibrahim-cv.pdf
 linkedin: muhanned-ibrahim
 alumni: false 
