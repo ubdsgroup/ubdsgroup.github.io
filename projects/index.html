@@ -25,7 +25,7 @@ categories:
  {% for project in site.categories.projects %}
  {% if project.active == true %}
  {% cycle 'add rows': '<div class="row">', '', '' %}
-   <div class="col-md-4 projectbox">
+   <div class="col-md-4 paperbox">
      <div class="media">
        <a class="pull-right" href="{{ project.url }}">
 	 <img width=80 class="media-object" src="{{ project.image }}">
@@ -75,7 +75,7 @@ categories:
  {% for project in site.categories.projects %}
  {% if project.active == false %}
  {% cycle 'add rows': '<div class="row">', '', '' %}
-   <div class="col-md-4 projectbox">
+   <div class="col-md-4 paperbox">
      <div class="media">
        <a class="pull-right" href="{{ project.url }}">
 	 <img width=80 class="media-object" src="{{ project.image }}">
