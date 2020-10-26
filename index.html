@@ -108,6 +108,7 @@ categories:
 
 <div class="row">
   {% for project in site.categories.projects limit:4 %}
+  {% if project.active == true %}
   <div class="col-md-3 reduced-gutter">
     <div class="pad-left">
       <div class="note">
@@ -119,6 +120,7 @@ categories:
       <div class="bigspacer"></div>
     </div>
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 
