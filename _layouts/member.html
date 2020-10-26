@@ -142,12 +142,11 @@ layout: default
   <div class="spacer"></div>
   {% for project in site.categories.projects %}
   {% if project.ubdsteam contains member.title %}
-  <div class="note">
-    <i class="fa fa-tasks"></i>
+    <p><i class="fa fa-tasks"></i>
     <a class="off" href="{{ project.url }}">
       {{ project.title }}
     </a>
-  </div>
+    </p>
   {% endif %}
   {% endfor %}
   {% endif %}
