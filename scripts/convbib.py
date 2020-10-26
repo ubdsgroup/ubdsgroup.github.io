@@ -1,4 +1,5 @@
 import bibtexparser
+import os
 
 def dumps(bib):
     bibstr = ''
@@ -30,6 +31,10 @@ for e in bib_database.entries:
         m = '01'
     d = e['year']+'-'+m+'-01'
     name = d+'-'+pid+'.md'
+    fname = '../papers/_posts/{}'.format(name)
+    if os.path.exists(fname):
+        continue
+    print('writing out {}'.format(fname))
     img = '/images/papers/{}.png'.format(pid)
     pdf = '/pdfs/papers/{}.pdf'.format(pid)
     if 'booktitle' in e.keys():
@@ -46,7 +51,7 @@ for e in bib_database.entries:
     else:
         ref =  '{} et al., {}'.format(authors[0],y)
     
-    with open('../papers/_posts/{}'.format(name),'w') as f:
+    with open(fname,'w') as f:
         f.write('---\n')
         f.write('layout: paper\n')
         f.write('title: "{}"\n'.format(e['title']))
