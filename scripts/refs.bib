@@ -120,3 +120,47 @@ month="06",
 abstract="Most current clustering based anomaly detection methods use scoring schema and thresholds to classify anomalies. These methods are often tailored to target specific data sets with ``known'' number of clusters. The paper provides a streaming clustering and anomaly detection algorithm that does not require strict arbitrary thresholds on the anomaly scores or knowledge of the number of clusters while performing probabilistic anomaly detection and clustering simultaneously. This ensures that the cluster formation is not impacted by the presence of anomalous data, thereby leading to more reliable definition of ``normal vs abnormal'' behavior. The motivations behind developing the INCAD model [17] and the path that leads to the streaming model are discussed.",
 doi="https://doi.org/10.1007/978-3-030-22747-0_4",
 }
+
+@INPROCEEDINGS{Luong2019a,
+  author={Duc Luong and Varun Chandola},
+  booktitle={2019 IEEE International Conference on Healthcare Informatics (ICHI)},
+  title={Learning Deep Representations from Clinical Data for Chronic Kidney Disease},
+  year={2019},
+  month={06},
+  pages={1-10},
+  doi={10.1109/ICHI.2019.8904646},
+  abstract={We study the behavior of a Time-Aware Long Short-Term Memory Autoencoder, a state-of-the-art method, in the context of learning latent representations from irregularly sampled patient data. We identify a key issue in the way such recurrent neural network models are being currently used and show that the solution of the issue leads to significant improvements in the learnt representations on both synthetic and real datasets. A detailed analysis of the improved methodology for representing patients suffering from Chronic Kidney Disease (CKD) using clinical data is provided. Experimental results show that the proposed T-LSTM model is able to capture the long-term trends in the data, while effectively handling the noise in the signal. Finally, we show that by using the latent representations of the CKD patients obtained from the T-LSTM autoencoder, one can identify unusual patient profiles from the target population.},
+}
+
+@article{Kul2018,
+author = {Kul, Gokhan and Luong, Duc Thanh Anh and Xie, Ting and Chandola, Varun and Kennedy, Oliver and Upadhyaya, Shambhu},
+title = {Similarity Metrics for SQL Query Clustering},
+year = {2018},
+publisher = {IEEE Educational Activities Department},
+address = {USA},
+volume = {30},
+number = {12},
+issn = {1041-4347},
+url = {https://doi.org/10.1109/TKDE.2018.2831214},
+doi = {10.1109/TKDE.2018.2831214},
+abstract = {Database access logs are the starting point for many forms of database administration, from database performance tuning, to security auditing, to benchmark design, and many more. Unfortunately, query logs are also large and unwieldy, and it can be difficult for an analyst to extract broad patterns from the set of queries found therein. Clustering is a natural first step towards understanding the massive query logs. However, many clustering methods rely on the notion of pairwise similarity, which is challenging to compute for SQL queries, especially when the underlying data and database schema is unavailable. We investigate the problem of computing similarity between queries, relying only on the query structure. We conduct a rigorous evaluation of three query similarity heuristics proposed in the literature applied to query clustering on multiple query log datasets, representing different types of query workloads. To improve the accuracy of the three heuristics, we propose a generic feature engineering strategy, using classical query rewrites to standardize query structure. The proposed strategy results in a significant improvement in the performance of all three similarity heuristics.},
+journal = {IEEE Trans. on Knowl. and Data Eng.},
+month = {12},
+pages = {2408–2420},
+}
+
+
+@article{Luong2017,
+	Abstract = {INTRODUCTION: As chronic kidney disease (CKD) is among the most prevalent chronic diseases in the world with various rate of progression among patients, identifying its phenotypic subtypes is important for improving risk stratification and providing more targeted therapy and specific treatments for patients having different trajectories of the disease progression. PROBLEM DEFINITION AND DATA: The rapid growth and adoption of electronic health records (EHR) technology has created a unique opportunity to leverage the abundant clinical data, available as EHRs, to find meaningful phenotypic subtypes for CKD. In this study, we focus on extracting disease severity profiles for CKD while accounting for other confounding factors. PROBABILISTIC SUBTYPING MODEL: We employ a probabilistic model to identify precise phenotypes from EHR data of patients who have chronic kidney disease. Using this model, patient's eGFR trajectory is decomposed as a combination of four different components including disease subtype effect, covariate effect, individual long-term effect and individual short-term effect. EXPERIMENTAL RESULTS: The discovered disease subtypes obtained by Probabilistic Subtyping Model for CKD are presented and their clinical relevance is analyzed. DISCUSSION: Several clinical health markers that were found associated with disease subtypes are presented with suggestion for further investigation on their use as risk predictors. Several assumptions in the study are also clarified and discussed. CONCLUSION: The large dataset of EHRs can be used to identify deep phenotypes retrospectively. Directions for further expansion of the model are also discussed.},
+	Author = {Luong, Duc Thanh Anh and Tran, Dinh and Pace, Wilson D and Dickinson, Miriam and Vassalotti, Joseph and Carroll, Jennifer and Withiam-Leitch, Matthew and Yang, Min and Satchidanand, Nikhil and Staton, Elizabeth and Kahn, Linda S and Chandola, Varun and Fox, Chester H},
+	Doi = {10.5334/egems.226},
+	Issn = {2327-9214 (Print); 2327-9214 (Electronic); 2327-9214 (Linking)},
+	Journal = {EGEMS (Wash DC)},
+	Month = {06},
+	Number = {1},
+	Pages = {9},
+	Title = {Extracting Deep Phenotypes for Chronic Kidney Disease Using Electronic Health Records.},
+	Volume = {5},
+	Year = {2017},
+}
+
