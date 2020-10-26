@@ -67,6 +67,12 @@ categories:
       <div class="smallspacer"></div>
       <i class="fa fa-dollar"></i>
       {{ project.sponsorname }}
+      {% if project.sponsor1 %}
+      , {{ project.sponsorname1 }}
+      {% endif %}
+      {% if project.sponsor2 %}
+      , {{ project.sponsorname2 }}
+      {% endif %}
     </div>
     <div class="bigspacer"></div>
     <div class="smallhead">
