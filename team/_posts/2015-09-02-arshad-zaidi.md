@@ -13,4 +13,4 @@ alumni: false
 Arshad has been a PhD student in the group since 2015.
 
 
-More information is available <a href=“https://smazcw3.github.io/“>here</a>
+More information is available [here](https://smazcw3.github.io/).
