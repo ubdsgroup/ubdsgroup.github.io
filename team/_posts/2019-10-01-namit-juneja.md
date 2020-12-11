@@ -4,7 +4,7 @@ title: Namit Juneja
 position: PhD Student
 handle: namitjun
 github: namitjuneja
-image: /images/team/media-shy.jpg
+image: /images/team/namit-juneja.jpg
 cv: /pdfs/team/namit-juneja-cv.pdf
 linkedin: namitjuneja
 alumni: false
