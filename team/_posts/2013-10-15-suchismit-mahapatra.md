@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Suchismit Mahapatra
-position: PhD Student
+position: Linkedin 
 handle: suchismi
 github: schrilax
 scholar: 1yaUvgMAAAAJ
