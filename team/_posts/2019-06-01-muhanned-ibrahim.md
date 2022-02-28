@@ -7,7 +7,7 @@ github: hanoody
 image: /images/team/muhanned-ibrahim.png
 cv: /pdfs/team/muhanned-ibrahim-cv.pdf
 linkedin: muhanned-ibrahim
-alumni: false 
+alumni: true 
 ---
 
-Muhanned started in the group as a CSTEP fellow in Summer of 2019 and has continued working as a researcher.
+Muhanned started in the group as a CSTEP fellow in Summer of 2019 and has continued working as a researcher until 2021.

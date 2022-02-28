@@ -6,7 +6,7 @@ handle: sguggilam
 github: sreelekh 
 image: /images/team/sreelekha-guggilam.jpg
 cv: /pdfs/team/sreelkha-guggilam-cv.pdf
-alumni: True 
+alumni: true 
 ---
 
-Lekha has been a PhD student in the group since 2018.
+Lekha graduated from the group with a PhD degree in 2022 and is joining Oak Ridge National Laboratory as staff scientist.
