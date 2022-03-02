@@ -18,7 +18,12 @@ layout: default
 	<div class="smallhead">
 	  {{ page.authors }}
 	  {{ page.year }}.
+	  {% if page.journal %}
 	  {{ page.journal }}
+	  {% endif %}
+	  {% if page.conference %}
+	  {{ page.conference }}
+	  {% endif %}
 	</div>
       </div>
     </div>
