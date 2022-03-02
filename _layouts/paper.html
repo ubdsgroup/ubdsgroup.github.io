@@ -17,7 +17,9 @@ layout: default
 	<p>
 	<div class="smallhead">
 	  {{ page.authors }}
-	  {{ page.year }}.
+	  {% if page.year %}
+	  ({{ page.year }})
+	  {% endif %}.
 	  {% if page.journal %}
 	  {{ page.journal }}
 	  {% endif %}
