@@ -6,7 +6,7 @@ handle: niyaziso
 github: ubdsgroup
 image: /images/team/niyazi-sorkunlu.jpg
 cv: /pdfs/team/niyazi-sorkunlu-cv.pdf
-alumni: false 
+alumni: true 
 ---
 
 Niyazi has been a PhD student in the group since 2015. He is currently a teaching faculty at [RIT](https://cs.rit.edu/~nyz/).
