@@ -7,7 +7,7 @@ github: pranavsankhe
 image: /images/team/pranav-sankhe.jpg
 cv: /pdfs/team/pranav-sankhe-cv.pdf
 linkedin: pranav-sankhe-483831155
-alumni: false
+alumni: true
 ---
 
-Pranav has been a PhD student in the group since Spring 2020.
+Pranav is currently working at the Oak Ridge National Laboratory.
