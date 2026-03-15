@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sreelekha (Lekha) Guggilam 
-position: Oak Ridge National Laboratory 
+position: Texas A&M University at Corpus Christie 
 handle: sguggilam
 github: sreelekh 
 image: /images/team/sreelekha-guggilam.jpg
