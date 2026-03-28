@@ -1,11 +1,10 @@
 ---
 layout: member
 title: Amol Salunkhe
-position: PhD Student
+position: American Express 
 handle: amolsalunkhe
 github: amolsalunkhe
 image: /images/team/amol-salunkhe.jpg
-cv: /pdfs/team/amol-salunkhe-cv.pdf
 linkedin: amol-salunkhe-959513a
 alumni: true
 ---

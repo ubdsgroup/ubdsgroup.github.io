@@ -5,7 +5,6 @@ position: Texas A&M University at Corpus Christie
 handle: sguggilam
 github: sreelekh 
 image: /images/team/sreelekha-guggilam.jpg
-cv: /pdfs/team/sreelkha-guggilam-cv.pdf
 alumni: true 
 ---
 

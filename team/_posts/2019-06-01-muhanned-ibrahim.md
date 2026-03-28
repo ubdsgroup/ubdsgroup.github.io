@@ -5,7 +5,6 @@ position: Boeing
 handle: muhanned
 github: hanoody
 image: /images/team/muhanned-ibrahim.png
-cv: /pdfs/team/muhanned-ibrahim-cv.pdf
 linkedin: muhanned-ibrahim
 alumni: true 
 ---

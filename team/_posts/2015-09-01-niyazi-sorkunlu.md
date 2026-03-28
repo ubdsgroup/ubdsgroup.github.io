@@ -1,12 +1,11 @@
 ---
 layout: member
 title: Niyazi Sorkunlu 
-position: PhD Student 
+position: Bank of America 
 handle: niyaziso
 github: ubdsgroup
 image: /images/team/niyazi-sorkunlu.jpg
-cv: /pdfs/team/niyazi-sorkunlu-cv.pdf
 alumni: true 
 ---
 
-Niyazi has been a PhD student in the group since 2015. He is currently a teaching faculty at [RIT](https://cs.rit.edu/~nyz/).
+Niyazi was part of the UBDS group from 2015 until 2020.

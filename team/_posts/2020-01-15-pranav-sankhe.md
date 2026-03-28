@@ -1,11 +1,10 @@
 ---
 layout: member
 title: Pranav Sankhe
-position: PhD Student
+position: Oak Ridge National Laboratory 
 handle: pranavgi
 github: pranavsankhe
 image: /images/team/pranav-sankhe.jpg
-cv: /pdfs/team/pranav-sankhe-cv.pdf
 linkedin: pranav-sankhe-483831155
 alumni: true
 ---
