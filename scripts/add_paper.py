@@ -10,6 +10,7 @@ import fitz  # PyMuPDF
 UNPAYWALL_EMAIL = "lab_agent@ubdsgroup.io"
 
 def fetch_metadata_and_pdf(identifier):
+    identifier = identifier.strip()
     print(f"🔍 Searching metadata for: {identifier}...")
     
     # 1. Fetch Metadata from Crossref
