@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "3.8.5"
+gem "jekyll", "~> 4.3.3"
 gem "execjs"
+gem "jekyll-theme-minimal"
 
 # compiling less
 gem 'therubyracer'
@@ -12,3 +13,8 @@ gem 'less'
 gem 'octokit'
 gem 'netrc'
 
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.3.0"
+gem "bigdecimal", "~> 4.1"
+
+gem "rexml", "~> 3.4"

@@ -1,0 +1,56 @@
+@use "{{ site.theme }}";
+
+/* --- University at Buffalo Color Palette --- */
+$ub-blue: #005bbb;        /* Primary Brand Color */
+$harriman-blue: #002f56;  /* Dark Blue - Excellent for high contrast text */
+$bulls-black: #000000;    /* Maximum Contrast */
+$hayes-white: #ffffff;
+$putnam-gray: #666666;    /* Secondary text */
+
+/* --- High Contrast Overrides --- */
+
+/* 1. Main Body Text */
+body {
+  color: $bulls-black;       /* Change from default gray to black for sharpness */
+  background-color: $hayes-white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 2. Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: $harriman-blue;     /* Distinct dark blue for hierarchy */
+  font-weight: 700;
+  border-bottom-color: #e0e0e0; /* Make the divider line visible but subtle */
+}
+
+/* 3. Links */
+a {
+  color: $ub-blue;           /* Official UB Blue */
+  text-decoration: underline; /* Underline helps accessibility/contrast */
+}
+
+a:hover {
+  color: $harriman-blue;     /* Darker interaction state */
+  background-color: #eef4fa; /* Subtle highlight on hover */
+}
+
+/* 4. Sidebar / Header Area (Specific to Minimal Theme) */
+header {
+  background-color: $harriman-blue; /* Dark header for strong brand look */
+  color: $hayes-white;
+}
+
+header h1, header h2 {
+  color: $hayes-white !important; /* Force white text on dark background */
+}
+
+header a {
+  color: #add8e6; /* Light blue links on the dark sidebar for readability */
+  text-decoration: none;
+}
+
+header a:hover {
+  color: $hayes-white;
+  text-decoration: underline;
+}
+
