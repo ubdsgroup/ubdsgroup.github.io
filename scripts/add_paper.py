@@ -13,7 +13,7 @@ def fetch_metadata_and_pdf(identifier):
     print(f"🔍 Searching metadata for: {identifier}...")
     
     # 1. Fetch Metadata from Crossref
-    url = f"https://api.crossref.org{identifier}"
+    url = f"https://api.crossref.org/{identifier}"
     try:
         r = requests.get(url)
         r.raise_for_status()
