@@ -43,7 +43,7 @@ def fetch_metadata_and_pdf(identifier):
     pdf_url = ""
     print("📥 Checking for Open Access PDF...")
     
-    unpaywall_url = f"https://api.unpaywall.org{identifier}?email={UNPAYWALL_EMAIL}"
+    unpaywall_url = f"https://api.unpaywall.org/{identifier}?email={UNPAYWALL_EMAIL}"
     try:
         u_resp = requests.get(unpaywall_url)
         if u_resp.status_code == 200:
