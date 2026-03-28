@@ -1,0 +1,31 @@
+name: Paper Automation Agent
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-paper:
+    if: contains(github.event.issue.labels.*.name, 'new-paper')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run Agent
+        run: python scripts/add_paper.py "${{ github.event.issue.title }}"
+      - name: Commit Paper
+        run: |
+          git config --global user.name "Lab-Agent"
+          git config --global user.email "agent@ubdsgroup.io"
+          git add _posts/
+          git commit -m "Automated: Added paper ${{ github.event.issue.title }}"
+          git push
+      - name: Close Issue
+        run: gh issue close ${{ github.event.issue.number }} --comment "Paper added successfully!"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
