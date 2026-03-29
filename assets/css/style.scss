@@ -1,56 +1,20 @@
-@use "{{ site.theme }}";
+---
+---
+/* 1. Manually import the Cayman theme styles */
+@import "jekyll-theme-cayman";
 
-/* --- University at Buffalo Color Palette --- */
-$ub-blue: #005bbb;        /* Primary Brand Color */
-$harriman-blue: #002f56;  /* Dark Blue - Excellent for high contrast text */
-$bulls-black: #000000;    /* Maximum Contrast */
-$hayes-white: #ffffff;
-$putnam-gray: #666666;    /* Secondary text */
-
-/* --- High Contrast Overrides --- */
-
-/* 1. Main Body Text */
-body {
-  color: $bulls-black;       /* Change from default gray to black for sharpness */
-  background-color: $hayes-white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+/* 2. University at Buffalo High-Contrast Overrides */
+.page-header {
+  background-image: linear-gradient(120deg, #002f56, #005bbb) !important;
+  background-color: #002f56 !important;
 }
 
-/* 2. Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: $harriman-blue;     /* Distinct dark blue for hierarchy */
-  font-weight: 700;
-  border-bottom-color: #e0e0e0; /* Make the divider line visible but subtle */
+.main-content h1, .main-content h2, .main-content h3 {
+  color: #002f56 !important;
 }
 
-/* 3. Links */
-a {
-  color: $ub-blue;           /* Official UB Blue */
-  text-decoration: underline; /* Underline helps accessibility/contrast */
-}
-
-a:hover {
-  color: $harriman-blue;     /* Darker interaction state */
-  background-color: #eef4fa; /* Subtle highlight on hover */
-}
-
-/* 4. Sidebar / Header Area (Specific to Minimal Theme) */
-header {
-  background-color: $harriman-blue; /* Dark header for strong brand look */
-  color: $hayes-white;
-}
-
-header h1, header h2 {
-  color: $hayes-white !important; /* Force white text on dark background */
-}
-
-header a {
-  color: #add8e6; /* Light blue links on the dark sidebar for readability */
-  text-decoration: none;
-}
-
-header a:hover {
-  color: $hayes-white;
-  text-decoration: underline;
+.main-content a {
+  color: #005bbb !important;
+  text-decoration: underline !important;
 }
 

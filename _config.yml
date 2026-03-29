@@ -5,10 +5,13 @@ url: https://ubdsgroup.github.io
 permalink: /:categories/:title/
 future: true
 
-theme: jekyll-theme-minimal
-# This ensures Jekyll processes your SCSS correctly
+#theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
+
 sass:
-  style: :compressed
+  # This tells the compiler to look inside your installed gems for styles
+  load_paths:
+    - _sass
 
 exclude:
   - "*.branches"
