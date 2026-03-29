@@ -9,4 +9,4 @@ linkedin: saumya-pandey-b31499167
 alumni: false
 ---
 
-Tanvi is a CDSE PhD student in the UBDS group since Fall 2023.
+Saumya is a CDSE PhD student in the UBDS group since Fall 2023.
