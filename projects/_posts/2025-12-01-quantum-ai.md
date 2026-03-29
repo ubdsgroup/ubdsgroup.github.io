@@ -7,7 +7,7 @@ molecular environment in single organelles. When integrated with Biomolecular Co
 gap between molecular profiling and live-cell imaging. The recent AFOSR DURIP award to acquire an integrated quantum-enhanced nonlinear imaging and sensing equipment will enable us to advance a new direction of Quantum Ramanomics, providing considerable gain in sensitivity and resolution to reveal more details of molecular changes as a function of disease progression and thus leading to molecular diagnostics and therapy. The outcomes of this project will allow us to position ourselves at the forefront of single cell biomolecular analysis – an area of research that is of vital significance for advancing life sciences, with an immediate impact on biomedical community eager to visualize and link the abnormalities of metabolic pathways with the origin and progression of a vast spectrum of disfunctions originating at the sub-cellular level."
 image: /images/projects/quantum-ai.png
 projecturl: "https://ubdsgroup.github.io/projects/quantum-ai/"
-sponsor: UB VPRED
+sponsor: ub 
 sponsorname: University at Buffalo 
 sponsorurl: https://www.buffalo.edu
 duration: 12/2025 - 11/2027
