@@ -13,7 +13,7 @@ sponsorurl: https://www.buffalo.edu
 duration: 12/2025 - 11/2027
 area: quantum ramanomics
 application: molecular medicine
-ubdsteam: Tanvi Ranga (RA), Davoud Adinheloo (PostDoc) Varun Chandola (PI)
+ubdsteam: Tanvi Ranga (RA), Davoud Adinehloo (PostDoc) Varun Chandola (PI)
 otherteam: Prof. Nalini Ratha, Prof. Paras Prasad, Prof. Vasili Perbeinos
 active: true
 ---
