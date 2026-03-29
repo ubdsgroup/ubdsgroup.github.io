@@ -5,13 +5,13 @@ url: https://ubdsgroup.github.io
 permalink: /:categories/:title/
 future: true
 
-#theme: jekyll-theme-minimal
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
+#theme: jekyll-theme-cayman
 
-sass:
-  # This tells the compiler to look inside your installed gems for styles
-  load_paths:
-    - _sass
+#sass:
+#  # This tells the compiler to look inside your installed gems for styles
+#  load_paths:
+#    - _sass
 
 exclude:
   - "*.branches"
