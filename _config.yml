@@ -9,7 +9,6 @@ theme: jekyll-theme-minimal
 # This ensures Jekyll processes your SCSS correctly
 sass:
   style: :compressed
-  quiet_deps: true
 
 exclude:
   - "*.branches"
